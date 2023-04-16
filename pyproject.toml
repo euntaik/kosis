@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kosis"
+version = "0.1.5"
+authors = [
+  { name="Euntaik Lee", email="euntaik@gmail.com" },
+]
+description = "KOSIS API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pandas",
+  "plotly",
+  "requests",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/euntaik/kosis"
+"Bug Tracker" = "https://github.com/euntaik/kosis/issues"
