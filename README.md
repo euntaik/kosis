@@ -1,4 +1,4 @@
-### KOSIS api
+# KOSIS API
 
 ## Installing
 
