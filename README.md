@@ -30,7 +30,7 @@ dir(ks.main)
 dir(ks.main.금융)
 ```
 
-### Getting statics data
+### Getting statistic data
 
 ```
 from kosis import Kosis
